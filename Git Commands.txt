@@ -1,0 +1,31 @@
+1. git status
+2. git init (if that current folder is not your git repository)
+3. git status (to check the repository items)
+4. git add --a (to select all item in the repository for staging area / or if you modified any file it will add that to be updated now)
+5. git status (now you can see all items are in green color means your items are in changes area or to be committed)
+6. git commit -m "message area" (-m means message in the "" double colon) after this command your commit is created successfully. 
+7. git status ( it show nothing to commit means nothing left in the repository to commit)
+8. git log ( if you know which files you have committed)
+9. git add Git Commands.txt ( i am selecting that file which i am going to commit in my repository)
+10. git commit / -m for message optional
+11. rm -rf .git (this folder is no longer git repository)
+12. git clone then your URL paste here  (to clone git repository)
+13. touch error.log (touch is the key word to create a file in the repository like touch file name what ever you want)
+14. touch .gitignore (it will make a file name .git ignore now whatever file you want to ignore it will not tracked you have to write the name of the file in .gitignore like .log, if you want to ignore every file lke .log you have to give command *.log this will ignore all the .log file in your repository same as goes for the folder/directory simply just write the folder name in the .gitignore file like /dir)
+15. git diff (it will compare the working directory and staging area what changes are made in the previous file and recent file)
+16. git commit -a -m "message" (it will commit all the modified file but not commit the untracked file/ staging area)
+17. git rm file name like working.txt (rm = remove file or delete file )
+18. git mv kon si file ka naam change krna hai space change hone ke baad kya naam hoga (this will rename the file name what ever you want)
+19. git rm --cached file ka name jise track nhi krna chahte (it will untracked the which you don't want to track) 
+20. git log -p (us log me kya changes hua hau uski information deta hai git log sirf dikhata hai kab changes hua or ye kya changes hua git log --stat simple me btaega)
+21. q (for exit)
+22. git commit --amend (log me change krna = press i for edit then esc for done editing then exit with the :wq enter button)
+
+
+
+
+pwd (present working directoy) 
+ls (for listing content)
+cd  (change directory)
+
+
