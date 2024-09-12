@@ -20,6 +20,10 @@
 20. git log -p (us log me kya changes hua hau uski information deta hai git log sirf dikhata hai kab changes hua or ye kya changes hua git log --stat simple me btaega)
 21. q (for exit)
 22. git commit --amend (log me change krna = press i for edit then esc for done editing then exit with the :wq enter button)
+23. git restore --staged file name\text.txt (to unstage from the staged area ,or form,  to be commited area)
+24. git status -- file name \ text.txt (it will unmodify the modified file like undo redu but it will changed to the last commited state)
+25. git checkout -f (warning it will erase your modified file and let you get back to your last commit state so use wisely)
+26. 
 
 
 
